@@ -10,10 +10,16 @@
     crossorigin="anonymous">
   <title>Sheboyguns</title>
 </head>
+
 <body>
   <style>
-    body, html {
+    body,
+    html {
       height: 100%;
+      background-color: white;
+    }
+    img {
+      image-orientation: from-image;
     }
     .background {
       height: 80%;
@@ -25,31 +31,67 @@
     .standing {
       background-image: url("res/gene_standing_at_desk.JPG");
     }
-    .guns {
+    .pistol {
       background-image: url("res/wall_pistol_01.JPG");
+    }
+    .rifle {
+      background-image: url("res/wall_rifle_01.JPG")
+    }
+    .ammo {
+      background-image: url("res/wall_ammo.JPG")
+    }
+    .service {
+      background-image: url("res/wall_maintenance_01.JPG")
     }
   </style>
   <div class="background standing">
     <span>
-        <img src="res/brand_shadow.png" width="40%" alt="">
+      <img src="res/brand_shadow.png" width="40%" alt="">
     </span>
   </div>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
+  <div class="container container-fluid">
+    <div class="">
+      <br>
       <h1 class="display-4">About Us</h1>
-      <p class="lead">WE offer a wide selection of firearms, from Hunting to CCW handguns. Personal protection. Also offer Gun smithing.. We fix what we sell. Hours 9am-5 pm M-S </p>
+      <p class="lead">WE offer a wide selection of firearms, from Hunting to CCW handguns. Personal protection. Also offer Gun smithing.. We fix what we sell. Hours 9am-5 pm M-S</p>
+      <br>
     </div>
   </div>
-  <div class="background guns"></div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Location</h1>
-        <p class="lead">
-          Call (920) 458-3247
-          1822 N 12th St
-          Sheboygan, Wisconsin
-        </p>
-      </div>
+  <div class="background pistol">
+  </div>
+  <div class="container container-fluid">
+    <div class="container">
+      <br>
+      <h1 class="display-4">Location</h1>
+      <p class="lead">
+        1822 N 12th St
+        Sheboygan, Wisconsin
+      </p>
+      <br>
+    </div>
+  </div>
+  <div class="background rifle">
+  </div>
+  <div class="container container-fluid">
+    <div class="container">
+      <br>
+      <h1 class="display-4">Contact</h1>
+      <p class="lead">
+        Call (920) 458-3247
+      </p>
+      <br>
+    </div>
+  </div>
+  <div class="background service">
+  </div>
+  <div class="container container-fluid">
+    <div class="container">
+      <br>
+      <h1 class="display-4">Services</h1>
+      <p class="lead">
+        Full gun maintenance by experienced gun smith
+      </p>
+      <br>
     </div>
   </div>
   <!-- Optional JavaScript -->
