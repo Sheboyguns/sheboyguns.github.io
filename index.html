@@ -47,16 +47,33 @@
     .service {
       background-image: url("res/wall_maintenance_01.JPG")
     }
+    .navbar {
+      background-color: white !important;
+    }
   </style>
+  <nav class="navbar navbar-light bg-light navbar-expand-md">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about">About Us</a>
+        <a class="nav-item nav-link" href="#hours">Hours</a>
+        <a class="nav-item nav-link" href="#contact">Contact Information</a>
+        <a class="nav-item nav-link" href="#location">Location</a>
+        <a class="nav-item nav-link" href="#services">Services</a>
+      </div>
+    </div>
+  </nav>
   <div class="background standing">
-    <div class="text-center vert-center" style="">
+    <div class="text-center vert-center">
       <img src="res/brand_shadow.png" width="70%" alt="">
     </div>
   </div>
   <div class="container container-fluid">
     <div class="">
       <br>
-      <h1 class="display-4">About Us</h1>
+      <h1 class="display-4" id="about">About Us</h1>
       <p class="lead">
         We offer a wide selection of firearms, from hunting to concealed carry, we have the gun you are looking for. We offer gunsmithing and maintenance. We also have a wide variety of ammunition so you can head straight to the range to enjoy your new firearm.
       </p>
@@ -68,7 +85,7 @@
   <div class="container container-fluid">
     <div class="container">
       <br>
-      <h1 class="display-4">Hours</h1>
+      <h1 class="display-4" id="hours">Hours</h1>
       <p class="lead">
         Monday - Saturday<br>
         9:00 AM - 5:00 PM
@@ -81,7 +98,7 @@
   <div class="container container-fluid">
     <div class="container">
       <br>
-      <h1 class="display-4">Contact</h1>
+      <h1 class="display-4" id="contact">Contact</h1>
       <p class="lead">
         Call (920) 458-3247
       </p>
@@ -93,7 +110,7 @@
   <div class="container container-fluid">
     <div class="container">
       <br>
-      <h1 class="display-4">Location</h1>
+      <h1 class="display-4" id="location">Location</h1>
       <p class="lead">
         1822 N 12th St
         Sheboygan, Wisconsin
@@ -106,7 +123,7 @@
   <div class="container container-fluid">
     <div class="container">
       <br>
-      <h1 class="display-4">Services</h1>
+      <h1 class="display-4" id="services">Services</h1>
       <p class="lead">
         Full gun maintenance by experienced gun smith
       </p>
