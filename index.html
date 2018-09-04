@@ -21,6 +21,11 @@
     img {
       image-orientation: from-image;
     }
+    .vert-center {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
     .background {
       height: 80%;
       background-size: cover;
@@ -45,9 +50,9 @@
     }
   </style>
   <div class="background standing">
-    <span>
-      <img src="res/brand_shadow.png" width="40%" alt="">
-    </span>
+    <div class="text-center vert-center" style="">
+      <img src="res/brand_shadow.png" width="70%" alt="">
+    </div>
   </div>
   <div class="container container-fluid">
     <div class="">
