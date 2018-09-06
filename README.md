@@ -1,3 +1,3 @@
-# What is this site used for?
+# What?
 
-This site is a testing ground for current projects I am undertaking. Websites I do are always personal challenges I make for myself with the purpose of having fun.
+This is the Sheboyguns website
