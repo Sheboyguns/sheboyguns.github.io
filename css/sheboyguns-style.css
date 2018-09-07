@@ -23,7 +23,6 @@
       -o-background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      background-attachment: fixed;
       text-align: center;
       padding: 0;
       display: block;
@@ -32,7 +31,13 @@
 
     @media only screen and (max-width: 768) {
         .background {
-            background-attachment: scroll !important;
+            background-attachment: scroll;
+        }
+    }
+
+    @media only screen and (min-width: 768) {
+        .background {
+            background-attachment: fixed;
         }
     }
 
