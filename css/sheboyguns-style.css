@@ -30,15 +30,14 @@
       background-attachment: scroll;
     }
 
-    @media (min-width: 768) {
+    @media only screen and (min-width: 768) {
         .background {
-            background-attachment: fixed !important;
+            background-attachment: fixed;
         }
     }
 
     .standing {
       background-image: url("/res/gene_standing_at_desk.JPG");
-      height: 80%;
     }
 
     .pistol {
