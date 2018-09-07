@@ -28,27 +28,27 @@
     }
 
     .standing {
-      background-image: url("res/gene_standing_at_desk.JPG");
+      background-image: url("/res/gene_standing_at_desk.JPG");
     }
 
     .pistol {
-      background-image: url("res/wall_pistol_01.JPG");
+      background-image: url("/res/wall_pistol_01.JPG");
     }
 
     .rifle {
-      background-image: url("res/wall_rifle_01.JPG")
+      background-image: url("/res/wall_rifle_01.JPG")
     }
 
     .ammo {
-      background-image: url("res/wall_ammo.JPG")
+      background-image: url("/res/wall_ammo.JPG")
     }
     
     .service {
-      background-image: url("res/workshop_01.jpg")
+      background-image: url("/res/workshop_01.jpg")
     }
 
     .front {
-      background-image: url("res/business_front.jpg")
+      background-image: url("/res/business_front.jpg")
     }
 
     .navbar {
