@@ -23,11 +23,15 @@
       -o-background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      background-attachment: scroll;
+      background-attachment: fixed;
       text-align: center;
       padding: 0;
       display: block;
       margin: auto;
+    }
+
+    @media (max-width: 768) {
+        background-attachment: scroll !important;
     }
 
     .standing {
