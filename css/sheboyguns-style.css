@@ -1,0 +1,56 @@
+    body,
+    html {
+      height: 100%;
+      background-color: white;
+    }
+
+    img {
+      image-orientation: from-image;
+    }
+
+    .vert-center {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .background {
+      height: 80%;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      padding: 0;
+      display: block;
+      margin: auto;
+    }
+
+    .standing {
+      background-image: url("res/gene_standing_at_desk.JPG");
+    }
+
+    .pistol {
+      background-image: url("res/wall_pistol_01.JPG");
+    }
+
+    .rifle {
+      background-image: url("res/wall_rifle_01.JPG")
+    }
+
+    .ammo {
+      background-image: url("res/wall_ammo.JPG")
+    }
+    
+    .service {
+      background-image: url("res/workshop_01.jpg")
+    }
+
+    .front {
+      background-image: url("res/business_front.jpg")
+    }
+
+    .navbar {
+      background-color: white !important;
+    }
